@@ -1,0 +1,163 @@
+#ajax-response
+	{
+		position:absolute;
+	}
+#chve_init
+	{
+		background-image:url(../images/bg_content_chat.png);
+		background-repeat:no-repeat;
+		width:296px;
+		height:365px;
+	}
+#chve_init .chve_userEmail span.my-error-class
+	{
+		display:none !important;
+	}
+#chve_init .chve_userEmail input.my-error-class, textarea.my-error-class
+	{
+		border:thin solid #F00;
+	}
+#chve_init .chve_userEmail .error-form
+	{
+		color:#F00;
+		font-size:12px;
+		text-align:center;
+		margin-top:10px;
+		display:none;
+	}
+
+#chve_init .chve_userEmail input.input-text, #chve_init input[type="text"]
+	{
+		background-image:url(../images/input-text.png);
+		background-repeat:no-repeat;
+		width:206px;
+		height:28px;
+		background-color:transparent;
+		border:none;
+		font-size:12px;
+		padding-top:2px;
+		padding-left:3px;
+		padding-right:3px;
+		padding-bottom:0;
+		box-shadow:none;
+		color:#fff;
+		margin-bottom:10px;
+	}
+#chve_init .chve_userEmail input.button-access,#chve-content input.send-msg
+	{
+		background-image:url(../images/bg_buttom.png);
+		background-repeat:no-repeat;
+		width:79px;
+		height:27px;
+		border:none;
+		background-color:transparent;
+		cursor:pointer;
+		font-size:12px;
+		margin-top:10px;
+		padding:0;
+	}
+#chve_init .chve_userEmail label
+	{
+		display:block;
+		font-size:12px;
+		color:#666;
+		font-weight:bold;
+	}
+#chve_init .chve_userEmail
+	{
+		padding-top:10px;
+	}
+#chve_init .chve_userEmail h2
+	{
+		font-weight:bold;
+		color:#900;
+		font-size:16px;
+		text-align:center;
+	}
+#chve_init .chve_userEmail h4
+	{
+		text-align:center;
+		font-size:14px;
+		color:#666;
+		margin-bottom:20px;
+	}
+#chve_init .chve_userEmail table
+	{
+		margin-left:20px;
+	}
+	
+#chve-content
+	{
+		position:relative;
+		padding-top:5px;
+		padding-left:4px;
+		padding-right:5px;
+		height:360px;
+	}
+#chve-content .box-list-messages
+	{
+		background-color:#FFF;
+		height: 280px;
+		overflow:auto;
+	}
+#chve-content .box-list-messages ul
+	{
+		margin:0;
+		padding:0;
+	}
+#chve-content .box-list-messages ul li
+	{
+		list-style-type:none;
+		font-size:12px;
+		border-top:thin solid #CCC;
+		color:#666;
+		padding:3px;
+	}
+#chve-content .box-list-messages ul li span
+	{
+		font-weight:bold;
+		font-size:10px;
+	}
+#chve-content textarea.chve-box-msg
+	{
+		position:absolute;
+		bottom:5px;
+		width:285px;
+		padding:0;
+		height:70px;
+		z-index:999;
+	}
+#chve-content input.send-msg
+	{
+		position:absolute;
+		z-index:9999;
+		right:15px;
+		bottom:40px;
+	}
+#chve-open-close
+	{
+		background-image:url(../images/bg_title_chat.png);
+		background-repeat:no-repeat;
+		width:294px;
+		height:27px;
+		font-size:12px;
+		padding-top:3px;
+		padding-left:5px;
+		cursor:pointer;
+	}
+#chve-open-close span
+	{
+		color:#900;
+		font-weight:bold;
+	}
+#chve_init
+	{
+		display:none;
+	}
+.chve-all-chat-containers
+	{
+		position:fixed;
+		z-index:99999;
+		right:0;
+		bottom:0;
+	}

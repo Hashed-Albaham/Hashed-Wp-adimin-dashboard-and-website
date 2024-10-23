@@ -1,0 +1,186 @@
+# Copyright (C) 2012 Chatlive
+# This file is distributed under the same license as the Chatlive package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Chatlive 2.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/chatlive\n"
+"POT-Creation-Date: 2012-04-29 23:29:16+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2012-04-29 21:23-0300\n"
+"Last-Translator: Claudio <cmarrero01@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: chatlive.php:110
+msgid "Configuracion"
+msgstr "Settings"
+
+#: chatlive.php:123
+msgid "Se eliminaron todos los mensajes de la sesi&oacute;n"
+msgstr "Removed all session messages"
+
+#: chatlive.php:128
+msgid "Se elimino la sesi&oacute;n correctamente"
+msgstr "The session is correctly eliminated"
+
+#: chatlive.php:139
+msgid "Chat live"
+msgstr "Chat live"
+
+#: chatlive.php:151
+msgid "Sesiones abiertas"
+msgstr "open sessions"
+
+#: chatlive.php:157
+#: chatlive.php:168
+msgid "Nombre"
+msgstr "name"
+
+#: chatlive.php:158
+#: chatlive.php:169
+msgid "Email"
+msgstr "email"
+
+#: chatlive.php:159
+#: chatlive.php:170
+msgid "Fecha"
+msgstr "date"
+
+#: chatlive.php:193
+msgid "Abrir chat"
+msgstr "open chat"
+
+#: chatlive.php:196
+msgid "Vaciar"
+msgstr "empty"
+
+#: chatlive.php:197
+msgid "Eliminar"
+msgstr "remove"
+
+#: chatlive.php:208
+msgid "No hay sesiones abiertas"
+msgstr "There are no open sessions"
+
+#: chatlive.php:272
+msgid "Se guardaron los datos correctamente"
+msgstr "Data were stored correctly"
+
+#: chatlive.php:286
+msgid "Configuracion de chat live"
+msgstr "Live chat settings"
+
+#: chatlive.php:289
+msgid "Datos del Soporte"
+msgstr "Data Support"
+
+#: chatlive.php:295
+msgid "Estas ahora online?"
+msgstr "These online now?"
+
+#: chatlive.php:298
+msgid "Nombre del Soporte"
+msgstr "Name of Support"
+
+#: chatlive.php:304
+msgid "Configuraci&oacute;n Sonidos"
+msgstr "Sounds settings"
+
+#: chatlive.php:307
+msgid "Sonido de nueva sesi&oacute;n"
+msgstr "Sound new session"
+
+#: chatlive.php:316
+msgid "Sonido de mensaje recibido"
+msgstr "Sound received message"
+
+#: chatlive.php:323
+msgid "Guardar configuraci&oacute;n"
+msgstr "Save Settings"
+
+#: chatlive.php:396
+msgid "Ayudanos en el desarrollo"
+msgstr "Help in the development"
+
+#: chatlive.php:397
+msgid "haznos una donacion para ayudarnos a continuar con el desarrollo de este plugin."
+msgstr "make us a donation to help us continue with the development of this plugin."
+
+#: chatlive.php:419
+msgid "Viendo la session:"
+msgstr "Viewing the session:"
+
+#: chatlive.php:428
+#: chatlive.php:529
+#: chatlive.php:619
+#: chatlive.php:780
+msgid "dice:"
+msgstr "says:"
+
+#: chatlive.php:431
+#: chatlive.php:783
+msgid "No hay ningun mensaje enviado o recibido"
+msgstr "There is no message sent or received"
+
+#: chatlive.php:439
+#: chatlive.php:790
+msgid "Enviar"
+msgstr "send"
+
+#: chatlive.php:523
+#: chatlive.php:535
+msgid "Error en el envio del mensaje. Prueve de nuevo, o refresque la pagina"
+msgstr "Error in sending the message. Try again, or refresh the page"
+
+#: chatlive.php:531
+msgid "Error:"
+msgstr "Error:"
+
+#: chatlive.php:531
+msgid "Su mensaje no fue enviado"
+msgstr "Your message was not sent"
+
+#: chatlive.php:656
+msgid "<span>Preguntas?,</span> chatea con nosotros"
+msgstr "<span>Questions?,</span> chat with us"
+
+#: chatlive.php:659
+msgid "<span>Lo sentimos?,</span> no estamos online"
+msgstr "<span>Sorry,</span> we are not online"
+
+#: chatlive.php:685
+msgid "Tu nombre:"
+msgstr "Your name:"
+
+#: chatlive.php:691
+msgid "Tu email:"
+msgstr "Your email:"
+
+#: chatlive.php:697
+msgid "Ingresar"
+msgstr "sign in"
+
+#: chatlive.php:702
+msgid "Por favor verifique la informaci&oacute;n suministrada."
+msgstr "Please check the information provided."
+
+#. Plugin Name of the plugin/theme
+msgid "Chatlive"
+msgstr "Chatlive"
+
+#. #-#-#-#-#  plugin.pot (Chatlive 2.0)  #-#-#-#-#
+#. Plugin URI of the plugin/theme
+#. #-#-#-#-#  plugin.pot (Chatlive 2.0)  #-#-#-#-#
+#. Author URI of the plugin/theme
+msgid "http://www.marreroclaudio.com.ar"
+msgstr "http://www.marreroclaudio.com.ar"
+
+#. Description of the plugin/theme
+msgid "Chat para soporte al cliente, multi session."
+msgstr "Chat for customer support, multi session."
+
+#. Author of the plugin/theme
+msgid "Claudio Adrian Marrero"
+msgstr "Claudio Adrian Marrero"
+

@@ -1,0 +1,17 @@
+#sendMsgOn{
+	text-align: center !important;;
+	background-color: #3b5493;
+	color:#fafafa;
+	font-size:1em !important;
+    border:none;
+    border-radius: 55px;
+    box-shadow: none;
+transition: 1s linear;
+
+}
+#sendMsgOn:hover{
+ border-radius: 10px;
+background-color: #6ab58a;
+transition: 1s linear;
+
+}

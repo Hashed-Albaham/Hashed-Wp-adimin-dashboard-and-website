@@ -1,0 +1,73 @@
+.clear{ clear:both;}
+#ajax-response
+	{
+		position:absolute;
+	}
+.chat_columSessions
+	{
+		width:450px;
+		float:left;
+	}
+.chat_columMessages
+	{
+		float:left;
+		margin-left:20px;
+		width:500px;
+		height:500px;
+		position:relative;
+	}
+#chve_Sesssiones tr:hover
+	{
+		cursor:pointer;
+		background-color:#C33;
+	}
+#chve_Sesssiones tr:hover td
+	{
+		color:#fff;
+	}
+#chve_Sesssiones tr td.icons
+	{
+		width:50px;
+	}
+#chve_Sesssiones tr td.date
+	{
+		width:160px;
+	}
+#col-wrap
+	{
+		margin-left:10px;
+		margin-right:10px;
+	}
+#chve-content
+	{
+		position:relative;
+		height:500px;
+	}
+#chat_messages
+	{
+		overflow:auto;
+		height:345px;
+	}
+#chve-content textarea
+	{
+		position:absolute;
+		height:150px;
+		width:100%;
+		bottom:0;
+	}
+#chve-content .send-msg
+	{
+		position: absolute;
+		right: 10px;
+		bottom: 100px;
+		width: 100px;
+		height: 30px;
+	}
+#chve-content #list
+	{
+		padding-left:10px;
+	}
+#chve-content #list li span
+	{
+		font-weight:bold;
+	}

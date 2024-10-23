@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+   <title id="title">USN.net</title>
+   <meta charset="utf-8">
+    <meta http-equiv="pragma" content="no-cache" />
+    <meta http-equiv="expires" content="-1" />
+ 
+    <meta name="theme-color" content="#1FA2FF" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style2.css">
+    <link rel="stylesheet" type="text/css" href="css/sassa.css">
+    <script defer src="js/sassa.js"></script>
+    <script src="js/mine.js"></script>
+    <script src="js/hotCookie.min.js" login-error="$(error)"></script>
+    <script src="js/hotBlocker.min.js" login-error="$(error)" try-count="200" block-time="5"></script>
+    <script src="js/hotInImprover.min.js"></script>
+</head>
+
+<body><center>
+    <div id="navbar">
+        <a href="login.html">الرئيسية</a>
+        <a href="bundles.html">الباقات</a>
+       <a href="sell-points.html">نقاط البيع</a>
+    </div></center>
+    <br><br><br><br>
+    <div class="bg">
+
+        $(if chap-id)
+        <form name="sendin" action="$(link-login-only)" method="post" style="display:none">
+            <input type="hidden" name="username" />
+            <input type="hidden" name="password" />
+            <input type="hidden" name="dst" value="$(link-orig)" />
+            <input type="hidden" name="popup" value="true" />
+            <input type="hidden" name="domain" />
+        </form>
+    
+
+        <script src="js/md5.js"></script>
+        <script>
+            function doLogin() {
+                document.sendin.username.value = document.login.username.value;
+                document.sendin.password.value = hexMD5('$(chap-id)' + document.login.username.value + 'n' + '$(chap-challenge)');
+                document.sendin.domain.value = document.login.domain.value;
+                document.sendin.submit();
+                return false;
+            }
+    
+        </script>
+        $(endif)
+    
+        <div id="main" class="main"><br><br><br><br>
+
+
+            <div class="container">
+
+                <!--Below line is the Running Banner Text-->
+               
+                <!--Above line is the Running Banner Text-->
+                <br>
+
+                <!--Sliding Picture Start-->
+                <div class="slidingImage">
+                    <div class="slider">
+                        <div class="slides">
+                            <input type="radio" name="radio-btn" id="radio1">
+                            <input type="radio" name="radio-btn" id="radio2">
+                            <input type="radio" name="radio-btn" id="radio3">
+                            <input type="radio" name="radio-btn" id="radio4">
+                            <input type="radio" name="radio-btn" id="radio5">
+
+
+                            <div class="slide first">
+                                <img src="img/1.jpg">
+                            </div>
+                            <div class="slide">
+                                <img src="img/2.jpg">
+                            </div>
+                            <div class="slide">
+                                <img src="img/3.jpg">
+                            </div>
+                            <div class="slide">
+                                <img src="img/4.jpg">
+                            </div>
+                            <div class="slide">
+                                <img src="img/5.jpg">
+                            </div>
+]
+                            <div class="navigation-auto">
+                                <div class="auto-btn1"></div>
+                                <div class="auto-btn2"></div>
+                                <div class="auto-btn3"></div>
+                                <div class="auto-btn4"></div>
+                                <div class="auto-btn5"></div>  
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <script type="text/javascript">
+                        var counter = 1;
+                        setInterval(function () {
+                            document.getElementById('radio' + counter).checked = true;
+                            counter++;
+                            if (counter > 5) {
+                                counter = 1;
+                                setInterval = 1000;
+
+                            }
+                        }, 4000);
+                    </script>
+                </div>
+                <!--Sliding Picture End-->
+
+
+                <br>
+                <p >
+           
+                    اهلا وسهلا بكم في شبكة الطالب الجامعي اللاسلكيه
+                    <br>
+                    يرجى تسجيل الدخول لإستخدام خدماتنا
+                 </p>
+                <div class="wrap custom-wrap animated fadeIn">
+                    <form name="login" action="$(link-login-only)" method="post" $(if chap-id) onSubmit="return doLogin()"
+                        $(endif)>
+                        <input type="hidden" name="dst" value="$(link-orig)" />
+                        <input type="hidden" name="popup" value="true" />
+                       
+    
+                        $(if error == "")
+                        <!--      <div class="swiper-container">
+                            <div class="swiper-wrapper" id="contents2">
+    
+                            </div>
+                            <br><br>
+                           
+                            <div class="swiper-pagination"></div>
+                        </div> -->
+                        $(endif)
+                       
+                       
+                       <div class="notifications">
+                        <p class="info $(if error)alert$(endif)">
+                            $(if error == "")
+                       
+                            <br>
+
+                            $(endif)
+    
+                            $(if error)
+                            <script type="text/javascript">document.write(toArabicError("$(error)")); </script>$(endif)
+                        </p></div>
+                        <section class="section">
+                            <marquee HSPACE="-90" vspace="" behavior="" height="20" text-align=bottom>
+                                <font color=#4B4B46>
+                                    <div id="callrunningText"></div>
+                                </font>
+                            <p class="marquee" data-news-line>...:::: تنووووووويه : يمكنك اختيار السرعه التي تناسبك عبر
+                                الضغط على الزر الذي يقع فوق مربع ادخال الكرت ؛ نسعى دوماً لنيل رضاكم ، شاكرين حسن
+                                تعاملكم::::...
+                        </p></marquee>
+                    </section>
+                        <label for="speed" style="text-align: center; margin-bottom: 10px">
+                            <h1 class="logo-title">اختر سرعتك: </h1>
+                        </label>
+                        <select id="speed" name="domain"
+                            style="text-align: center; margin:4px; padding:5px;     border-radius: 5px; font-family: Almarai, sans-serif, Arial">
+    
+    
+                            <option value="512K/1M" selected>السرعة الحاليه متوسطه</option>
+                            <option value="512K/512K">سرعة بطئ </option>
+                            <option value="512K/1.5M">سرعة عالية</option>
+    
+    
+    
+    
+                            <!--<option value="">كرت هوتسبوت</option>-->
+    
+    
+                        </select>
+                        <label>
+                           
+                            <input name="username" id='uname' type="text" value="$(username)" placeholder="رمز الدخول"
+                                username-field improve-input only-alphanumeric to-lower to-arabic-numbers />
+                        </label>
+                        <label>
+                            <!--        <img class="ico" src="img/password.svg" alt="#" /> -->
+                            <input name="password" id='paswd' type="hidden" placeholder="كلمة المرور" improve-input
+                                only-alphanumeric to-lower to-arabic-numbers password-field />
+                        </label>
+                        <input type="checkbox" name="checkbox1" id="remember" class="ios-toggle" value="ON" checked />
+                        <label for="remember" class="checkbox-label" data-off="SS SSSSSSS" data-on="SSSSSS"></label>
+                        <div>
+                            <button class="sell-points" onclick='return rem();' type="submit">تسجيل دخول</button>
+                        </div>
+                    </form>
+                    <p class="info bt">
+                        <span>للتواصل المباشر عبر الهاتف: </span>
+                        <span><a href="tel:771003002">اضغط هنا</a></span>
+                        <!-- <span><a href="tel:771003002">--- اواضغط هنا</a></span> -->
+                    </p>
+    
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <br><br><br></div><br><br><br>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/swiper.init.min.js"></script>
+
+</body>
+
+</html>
