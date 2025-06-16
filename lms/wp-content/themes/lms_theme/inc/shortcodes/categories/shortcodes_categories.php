@@ -16,14 +16,14 @@ function generate_shortcode_lms_featured_categoriess($atts) {
 
 
 
-    return '<center><div class="col-12 col-md-4 p-5 mt-1">
+    return '<div class="col-12 col-md-4 p-5 mt-1 text-center">
                       <a href="'.$categories_link['url'].'" target = "'.$categories_link['target'].'" rel="'.$categories_link['rel'].'">
                         <img src="'.$categories_image_src[0].'" class="rounded-circle img-fluid border" alt="..."></a>
                 <h5 class="text-center mt-1 mb-1">'.$categories_name.'</h5>
                 <p class="text-center">
                     <a class="btn btn-success">Go Shop</a>
                 </p>
-            </div></center>
+            </div>
     ';
 }
 

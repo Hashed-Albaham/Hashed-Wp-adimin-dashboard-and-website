@@ -37,7 +37,6 @@ function generate_shortcode_lms_featured_products($atts, $product_content) {
                             <p class="card-text">
                                 '.$product_content.'
                             </p>
-                            <p class="text-muted">Reviews (24)</p>
                         </div>
                     </div><br>
     ';

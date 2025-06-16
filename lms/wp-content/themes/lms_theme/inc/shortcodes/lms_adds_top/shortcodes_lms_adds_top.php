@@ -21,7 +21,7 @@ function generate_shortcode_lms_adds_top ($atts, $addscontent) {
             <div class="container">
                 <div class="row p-5">
                     <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
-                    <img class="img-fluid" src="'.$adds_top_image_src[0].'" alt="" style=" border-radius :50%;" >
+                    <img class="img-fluid rounded-circle" src="'.$adds_top_image_src[0].'" alt="">
                   
                     </div>
                     <div class="col-lg-6 mb-0 d-flex align-items-center">
@@ -34,7 +34,7 @@ function generate_shortcode_lms_adds_top ($atts, $addscontent) {
                 </div>
             </div>
         </div>
-    </div><
+    </div>
  ';
 }
 
