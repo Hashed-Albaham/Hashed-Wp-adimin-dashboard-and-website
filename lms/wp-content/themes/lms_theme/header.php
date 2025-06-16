@@ -1,18 +1,15 @@
 <!DOCTYPE html>
-<html lang="<?php
-bloginfo('name');
-?>">
-<title><?php bloginfo('name'); ?> | <?php bloginfo('description'); ?></title>
+<html lang="<?php language_attributes(); ?>">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
 
-<link rel="apple-touch-icon" href="<?php echo IMG.'/apple-icon.png' ?> ">
+<link rel="apple-touch-icon" href="<?php echo esc_url(LMS_THEME_ASSETS_URI . '/img/apple-icon.png'); ?> ">
 
 
 
-<link rel="shortcut icon" type="image/x-icon" href="<?php echo IMG.'/favicon.ico' ?>">
+<link rel="shortcut icon" type="image/x-icon" href="<?php echo esc_url(LMS_THEME_ASSETS_URI . '/img/favicon.ico'); ?>">
 
 <?php wp_head() ?>
 
@@ -48,7 +45,7 @@ bloginfo('name');
 <nav class="navbar navbar-expand-lg navbar-light shadow">
 <div class="container d-flex justify-content-between align-items-center">
 
-<a class="navbar-brand text-success logo h1 align-self-center" href="index.html">
+<a class="navbar-brand text-success logo h1 align-self-center" href="<?php echo esc_url(home_url('/')); ?>">
 <?php bloginfo('name') ?>
 </a>
 
@@ -57,13 +54,20 @@ bloginfo('name');
 </button>
 
 <div class="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between" id="templatemo_main_nav">
-<div class="flex-fill">
-                      <ul class="nav navbar-nav d-flex justify-content-between mx-lg-auto">
-                        
-
-                    <?php wp_nav_menu(array('header-menu' => 'header-menu')); ?></ul>
-
-</div>
+<?php
+wp_nav_menu(array(
+    'theme_location' => 'primary_menu',
+    'container'      => 'div',
+    'container_id'   => '',
+    'container_class'=> 'flex-fill',
+    'menu_id'        => '',
+    'menu_class'     => 'nav navbar-nav d-flex justify-content-between mx-lg-auto',
+    'fallback_cb'    => false,
+    'items_wrap'     => '<ul id="%1$s" class="%2$s">%3$s</ul>',
+    'depth'          => 2,
+    // 'walker'      => new My_Custom_Walker_Nav_Menu()
+));
+?>
 <div class="navbar align-self-center d-flex">
 <div class="d-lg-none flex-sm-fill mt-3 mb-4 col-7 col-sm-auto pr-3">
 <div class="input-group">
